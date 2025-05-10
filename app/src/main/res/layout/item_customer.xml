@@ -6,7 +6,6 @@
     android:orientation="horizontal"
     android:padding="8dp">
 
-    <!-- Profile Image -->
     <ImageView
         android:id="@+id/imgProfile"
         android:layout_width="60dp"
@@ -14,7 +13,6 @@
         android:layout_marginEnd="16dp"
         android:src="@mipmap/ic_launcher" />
 
-    <!-- Customer Details -->
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -44,7 +42,6 @@
             android:textSize="14sp" />
     </LinearLayout>
 
-    <!-- Edit Button -->
     <Button
         android:id="@+id/btnEdit"
         android:layout_width="wrap_content"
@@ -54,7 +51,6 @@
         android:backgroundTint="@color/black"
         android:text="Edit" />
 
-    <!-- Delete Button -->
     <Button
         android:id="@+id/btnDelete"
         android:layout_width="wrap_content"

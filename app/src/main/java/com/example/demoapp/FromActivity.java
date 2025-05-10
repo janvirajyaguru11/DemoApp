@@ -96,7 +96,6 @@ public class FromActivity extends AppCompatActivity {
                 Toast.makeText(this, "User Added", Toast.LENGTH_SHORT).show();
             }
 
-
             adapter.notifyDataSetChanged();
 
         });
