@@ -12,7 +12,6 @@ import androidx.recyclerview.widget.RecyclerView;
 
 public class CourseRVAdapter extends ListAdapter<CourseModal, CourseRVAdapter.ViewHolder> {
 
-    // creating a variable for on item click listener.
     private OnItemClickListener listener;
 
     // creating a constructor class for our adapter class.
